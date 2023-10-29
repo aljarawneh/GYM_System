@@ -1,0 +1,263 @@
+/* start navbar */
+.nav{
+    background-color:rgb(52 ,58 ,64, 0.7);
+    height: 625px;
+    width: 233px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 11111111;
+    padding-top: 35px;
+    padding-bottom: 20px;
+
+}
+.nav ul {
+    list-style: none;
+}
+.nav ul:hover{
+    list-style: none;
+    text-decoration: none;
+}
+.nav li{
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.nav a{
+    text-decoration: none;
+    color: #deb974;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.dropdown{
+    position: absolute;
+    right: 15px;
+}
+.dropdown-menu a{
+   color: black !important;
+}
+.nav a:hover{
+    color: white;
+    text-decoration: none;
+    
+}
+.nav i{
+    color: #deb974;
+    width: 50px;
+    height: 39px;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 8px;
+    padding-left: 13px;
+    margin-right: 11px;
+}
+
+.nav hr{
+    width: 178px;
+    height: 2px;
+    background-color: aliceblue;
+}
+/* end navbar */
+
+/* ///////////// */
+/* Home page  */
+/* ///////////// */
+
+/* start header  */
+.header{
+    width: 100%;
+    height: 625px;
+    background-image:url(../img/IMG-20230414-WA0004.jpg) ;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-left: 75px;
+}
+.header h1{
+    padding-top: 230px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: Gabriola;
+}
+.header p{
+    padding-top: 30px;
+    text-align: center;
+    color: #deb974;
+    font-size: 26px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.header a{
+    margin-left: 558px;
+    padding-top: 70px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right:20px;
+    background-color: #71b1b5 !important;
+    border-color: #71b1b5;
+    color: black;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+/* end header  */
+
+
+
+/* ///////////// */
+/* ABOUT PAGE  */
+/* ///////////// */
+
+.about h1{
+    color: white;
+    margin-left: 208px;
+    margin-top: 205px;
+    font-family: Gabriola;
+    font-weight: bold;
+}
+.about h5,h6{
+    color: white;
+    margin-left: 208px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.about img{
+    border-radius: 36px;
+    border-bottom-right-radius: 30px;
+    margin-top: 100px;
+    margin-left: 158px;
+    margin-bottom: 50px;
+    height: 438px;
+}
+.workout h1{
+    color: white;
+    text-align: center;
+    font-family: Gabriola;
+    margin-bottom: 28px;
+    margin-top: 10px;
+    margin-left: 164px;
+
+}
+.workout img{
+    height: 209px;
+    margin: 12px;
+}
+.imgg{
+    margin-left: 224px !important;
+}
+
+.workout a{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.workout a:hover{
+    text-decoration: none;
+    color: #deb974;
+}
+.flow{
+    opacity: 0; 
+    
+}
+.flow:hover{
+    opacity: 1; 
+    background-color: white;
+    border-radius: 50px;
+
+}
+/* ///////////// */
+/* CONTACT PAGE  */
+/* ///////////// */
+
+.contact{
+    margin-top: 50px;
+    margin-left: 225px !important;
+}
+.contact a{
+    color: #deb974 !important;
+    padding-left: 70px;
+
+}
+.contact h5{
+    color: white;
+    padding-left: 70px;
+    padding-top: 5px;
+}
+
+.contact h2{
+    color:#deb974;
+    padding-left: 70px;
+    padding-top: 150px;
+}
+/* ///////////// */
+/* WORKOUT PAGE  */
+/* ///////////// */
+
+.video video{
+       height: 326px;
+       margin-left: 123px;
+       margin-top: 50px;
+}
+.video h3{
+    color: #deb974;
+    margin-left: 210px;
+    font-family: Gabriola;
+}
+
+/* ///////////// */
+/* LOG_IN PAGE  */
+/* ///////////// */
+#log{
+    background-color: black;
+}
+ label{
+    color: #848484;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.input-form{
+    height: 52px !important;
+    background-color: #404040 !important;
+    border-color: #404040 !important;
+    color: white !important;
+}
+.textarea-form{
+    background-color: #404040 !important;
+    border-color: #404040 !important;
+}
+
+.button-form{
+    background-color: #fd8902 !important;
+    border-color: #fd8902 !important;
+    border-radius: 50px !important;
+    color: black !important;
+    margin-left: 206px !important;
+    width: 118px;
+    
+}
+
+.button-form:hover{
+    background-color: red !important;
+    border-color: #404040  !important;    
+}
+
+/* ///////////// */
+/* END FORM  */
+/* ///////////// */
+.error-message {
+    color: red ;
+  }
+  
+
+/* ///////////// */
+/* START FOOTER  */
+/* ///////////// */
+.p-footer{
+    font-weight: bold;
+}
+/* ///////////// */
+/* END FOOTER  */
+/* ///////////// */

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="47ac46f8-8ef3-42ff-86c4-5da51ea403fd" name="localhost" url="http://localhost/gymm_web">
+        <fileTransfer mountedRoot="C:\laragon\www\gymm_web" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>

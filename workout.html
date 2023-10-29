@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- LINK ICON  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!-- CSS LINK  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap .min.css">
+    <title>soldiers</title>
+</head>
+<body id="log" >
+
+    <!-- start navbar  -->
+    <div  class="col-md-12  ">
+        <div class="nav">
+            <nav class="main-nav">
+                <ul >
+                    <li>
+                        <a href="index.html" id="tmNavLink1" class="scrolly active" data-bg-img="constructive_bg_01.jpg" data-page="#tm-section-1">
+                            <i class="fas fa-home tm-nav-fa-icon"></i>
+                                <span>Home</span>
+                        </a>
+                    </li>
+                    <hr>						
+                    <li>
+                         <a href="about.html" class="scrolly" data-bg-img="constructive_bg_03.jpg" data-page="#tm-section-3">
+                            <i class="fas fa-users tm-nav-fa-icon"></i>
+                            <span>About Us</span>
+                        </a>
+                    </li>
+            <hr>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                <i class="fas fa-map tm-nav-fa-icon"></i>
+                 Products
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+              </div>
+            </li>
+            <hr>
+            <li>
+                <a href="Contact.html" class="scrolly" data-bg-img="constructive_bg_04.jpg" data-page="#tm-section-4">
+                    <i class="fas fa-comments tm-nav-fa-icon"></i>
+                    <span>Contact Us</span>
+                </a>
+            </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- end navbar  -->
+
+
+<!-- START WORKOUT SECTION  -->
+<div class="container">
+    <div class="row video">
+        <div class="col-md-4 text-center ">
+            <video width="300px" height="300px" controls loop  muted poster="img/poster/IMG-20230425-WA0087.jpg" preload="auto">
+                <source src="https:www.youtube.com/embed/c8ovY1XbC4c">
+            </video>
+            <h3> back</h3>
+        </div>
+        <br>
+        <div class="col-md-4 text-center">
+            <video width="300px" height="300px" controls loop  muted poster="img/poster/IMG-20230425-WA0086.jpg"  preload="auto">
+                <source src="https:www.youtube.com/embed/BCZE-44jp_I">
+            </video>
+            <h3>Shoulder</h3>
+        </div>
+        <div class="col-md-4 text-center">
+            <video width="300px" height="300px" controls loop  muted poster="img/poster/IMG-20230425-WA0083.jpg" preload="auto">
+                <source src="https:www.youtube.com/embed/BCZE-44jp_I">
+            </video>
+            <h3>Dumbbell leg</h3>
+        </div>
+        <div class="col-md-4 text-center">
+            <video width="300px" height="300px" controls loop  muted poster="img/poster/IMG-20230425-WA0080.jpg" preload="auto">
+                <source src="https:www.youtube.com/embed/BCZE-44jp_I">
+            </video>
+            <h3>Chest</h3>
+        </div>
+        <div class="col-md-4 text-center">
+            <video width="300px" height="300px" controls loop  muted poster="img/poster/IMG-20230425-WA0081.jpg" preload="auto">
+                <source src="https:www.youtube.com/embed/BCZE-44jp_I">
+            </video>
+            <h3>body</h3>
+        </div>
+        <div class="col-md-4 text-center">
+            <video width="300px" height="300px" controls loop  muted poster="img/poster/IMG-20230425-WA0085.jpg" preload="auto">
+                <source src="https:www.youtube.com/embed/BCZE-44jp_I">
+            </video>
+            <h3>Back</h3>
+        </div>
+    </div>
+</div>
+<!-- END WORKOUT SECTION  -->
+
+
+     <!-- JS Links -->
+     <script src="js/jquery.slim.min.js"></script>
+     <script src="js/popper.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/main.js"></script>
+     <script src="js/wow.js"></script>
+     <script>
+         wow = new WOW(
+           {
+             animateClass: 'animated',
+             offset:       100,
+             callback:     function(box) {
+               console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+             }
+           }
+         );
+         wow.init();
+         document.getElementById('moar').onclick = function() {
+           var section = document.createElement('section');
+           section.className = 'section--purple wow fadeInDown';
+           this.parentNode.insertBefore(section, this);
+         };
+       </script>
+     </body>
+     </html>
